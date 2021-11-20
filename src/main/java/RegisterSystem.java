@@ -53,7 +53,6 @@ public class RegisterSystem {
 
     protected boolean isInDB(SkiPass card){
         for (int i = 0; i < cards.size(); i++){
-            System.out.println(cards.get(i).getId() + " " + card.getId());
             if (cards.get(i).getId().equals(card.getId())){
                 return true;
             }
